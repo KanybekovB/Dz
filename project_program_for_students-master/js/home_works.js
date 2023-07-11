@@ -3,7 +3,7 @@
 const gmailCheck = document.querySelector('#gmail_input');
 const gmailButton = document.querySelector('#gmail_button');
 const gmail_result = document.querySelector('#gmail_result');
-const regExp = /\w{150}@gmail.com$/ // *ДОЛЖЕН БЫТЬ НЕ МЕНЬШЕ 5
+const regExp = /\w{5}@gmail.com$/ // *ДОЛЖЕН БЫТЬ НЕ МЕНЬШЕ 5
 
 gmailButton.addEventListener('click', () => {
     let checkGmail = regExp.test(gmailCheck.value);
