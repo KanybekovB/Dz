@@ -28,7 +28,7 @@ const moveBlock = () => {
   console.log(leftPx);
 
   if (leftPx < maxCountPx) {
-    setTimeout(moveBlock, delay); //* setTimeout метод для замедления
+    setTimeout(moveBlock, delay); //* setTimeout функция для замедления
   }
 
   childBlock.style.left = `${leftPx}px`;
